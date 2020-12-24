@@ -13,7 +13,7 @@ setup(
     long_description_content_type='text/markdown',
     version='1.2.3',
     author='SirAnthony',
-    url='https://github.com/SirAnthony/slpp',
+    url='https://github.com/lltcggie/slpp',
     license='MIT',
     keywords=['lua'],
     py_modules=['slpp'],
