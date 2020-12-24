@@ -36,7 +36,7 @@ class SLPP(object):
         self.len = 0
         self.depth = 0
         self.space = re.compile('\s', re.M)
-        self.alnum = re.compile('\w', re.M)
+        self.alnum = re.compile('\w|\\+|\\.', re.M)
         self.newline = '\n'
         self.tab = '\t'
 
